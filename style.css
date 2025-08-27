@@ -70,13 +70,6 @@ html, body { margin:0; }
     margin-top: 2rem;
 }
 
-.kerk, .natuurgebied{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    margin-bottom: 20px;
-}
-
 .col-9 p{
     color: rgb(39, 37, 54);
     font-size: 1rem;
@@ -88,6 +81,19 @@ html, body { margin:0; }
     height: auto;
     margin:1rem;
     display: block;
+}
+
+.kerk, .natuurgebied {
+  display: block; 
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .kerk, .natuurgebied {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
 }
 
 .footer{

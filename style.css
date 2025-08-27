@@ -81,6 +81,7 @@ html, body { margin:0; }
     height: auto;
     margin:1rem;
     display: block;
+    align-items: center;
 }
 
 .kerk, .natuurgebied {
@@ -92,7 +93,7 @@ html, body { margin:0; }
   .kerk, .natuurgebied {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    margin: 1rem auto;
   }
 }
 

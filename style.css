@@ -79,9 +79,8 @@ html, body { margin:0; }
 .col-9 .img{
     max-width: 450px;
     height: auto;
-    margin:1rem;
     display: block;
-    align-items: center;
+    margin: 1rem auto;
 }
 
 .kerk, .natuurgebied {
@@ -93,7 +92,7 @@ html, body { margin:0; }
   .kerk, .natuurgebied {
     display: flex;
     justify-content: space-between;
-    margin: 1rem auto;
+    align-items: flex-end;
   }
 }
 

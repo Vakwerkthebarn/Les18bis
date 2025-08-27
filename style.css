@@ -83,7 +83,7 @@ html, body { margin:0; }
     padding: 0rem 1rem 0rem 3rem;
 }
 
-.img{
+.col-9 .img{
     max-width: 250px;
     height: auto;
     margin:1rem;

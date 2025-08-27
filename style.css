@@ -83,7 +83,7 @@ html, body { margin:0; }
 }
 
 .col-9 .kerk img, .col-9 .natuurgebied img{
-    max-width: 450px;
+    max-width: 350px;
     height: auto;
     display: block;
     margin: 1rem;

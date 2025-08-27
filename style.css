@@ -66,21 +66,27 @@ html, body { margin:0; }
     font-weight: 400;
     font-size: 3rem;
     color: rgb(39, 37, 54);
-    padding: 0rem 0rem 0rem 3rem;
+    padding: 0rem 0rem 0rem 1rem;
     margin-top: 2rem;
 }
 
 .col-9 p{
     color: rgb(39, 37, 54);
     font-size: 1rem;
-    padding: 0rem 1rem 0rem 3rem;
+    padding: 0rem 1rem 0rem 1rem;
 }
 
-.col-9 .img{
+@media (min-width: 768px) {
+  .col-9 h2, .col-9 p {
+    padding-left: 3rem;
+  }
+}
+
+.col-9 .kerk img, .col-9 .natuurgebied img{
     max-width: 450px;
     height: auto;
     display: block;
-    margin: 1rem auto;
+    margin: 1rem;
 }
 
 .kerk, .natuurgebied {

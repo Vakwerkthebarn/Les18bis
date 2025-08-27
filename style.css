@@ -87,6 +87,7 @@ html, body { margin:0; }
     max-width: 250px;
     height: auto;
     margin:1rem;
+    display: block;
 }
 
 .footer{
